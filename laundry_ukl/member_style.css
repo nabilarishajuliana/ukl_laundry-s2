@@ -1,0 +1,44 @@
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,0fr);
+    margin: 70px;
+    align-items: center;
+    grid-gap:50px
+    
+}
+
+img{
+    object-fit: cover;
+}
+
+.grid > article{
+    
+    box-shadow: 5px 5px 5px 0px rgb(105, 101, 101);
+    border-radius: 20px ;
+    text-align: center;
+    background: rgb(199, 52, 52);
+    transition: transform;
+}
+
+.grid > article img{
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px
+}
+
+.konten a{
+    text-transform:uppercase;
+   
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.konten a:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.grid > article:hover{
+    transform: scale(1.1);
+}
