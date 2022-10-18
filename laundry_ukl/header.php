@@ -26,13 +26,13 @@ session_start();
               <a class="nav-link active" aria-current="page" href="home.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="paket.php">Paket</a>
+              <a class="nav-link" aria-current="page" href="tampil_paket.php">Paket</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="member.php">Member</a>
+              <a class="nav-link" aria-current="page" href="tampil_member.php">Member</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="user.php">user</a>
+              <a class="nav-link" aria-current="page" href="tampil_user.php">user</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="data.php">Transaksi</a>
