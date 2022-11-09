@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:#c0b3d7">
+    
+
 <?php 
     include "header.php";
     include "koneksi.php";
@@ -6,7 +17,7 @@
     // $qry_detail_member=mysqli_query($conn,"select * from member");
     // $dt_member=mysqli_fetch_array($qry_detail_member);
 ?>
-<h2>TRANSAKSI</h2>
+<h2 align="center" style="padding:20px;font-weight:bold; color:rgb(71, 65, 160)">TRANSAKSI</h2>
 <div class="row">
     <div class="col-md-8">
         <form action="masukkankeranjang.php" method="post">
@@ -37,3 +48,5 @@
 <?php 
     include "footer.php";
 ?>
+</body>
+</html>

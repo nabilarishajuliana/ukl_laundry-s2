@@ -7,9 +7,9 @@ if($_POST){
 
     
     if(empty($status)){
-        echo "<script>alert('status tidak boleh kosong');location.href='update.php';</script>";
+        echo "<script>alert('status tidak boleh kosong');location.href='update.php?id_transaksi=".$id_transaksi."';</script>";
     } elseif(empty($pembayaran)){
-        echo "<script>alert('pembayaran tidak boleh kosong');location.href='update.php';</script>";
+        echo "<script>alert('pembayaran tidak boleh kosong');location.href='update.php?id_transaksi=".$id_transaksi."';</script>";
     } else {
         include "koneksi.php";
         if($pembayaran=="dibayar"){

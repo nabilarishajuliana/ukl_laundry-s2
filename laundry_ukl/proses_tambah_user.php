@@ -17,9 +17,9 @@ if($_POST){
         include "koneksi.php";
         $insert=mysqli_query($conn,"insert into user (nama_user,username, password, role) value ('".$nama."','".$username."','".md5($password)."','".$role."')") or die(mysqli_error($conn));
         if($insert){
-            echo "<script>alert('Sukses menambahkan data');location.href='login.php';</script>";
+            echo "<script>alert('Sukses menambahkan data');location.href='tampil_user.php';</script>";
         } else {
-            echo "<script>alert('Gagal menambahkan data');location.href='tambah_siswa.php';</script>";
+            echo "<script>alert('Gagal menambahkan data');location.href='tambah_user.php';</script>";
         }
     }
 }

@@ -5,7 +5,7 @@
     <title></title>
     <link rel="stylesheet"  >
 </head>
-<body>
+<body style="background-color:#c0b3d7">
 <?php
     include "header.php";
     ?>
@@ -15,7 +15,18 @@
         <form action="cekdata.php" method="post">
           <h3 align="center">Laundry Lovefy</h3>
           Nama Member:
-          <input type="text" name="nama_member" value="" class="form-control">
+        <select name="nama_member"   class="form-control">
+          <option></option>
+            <?php 
+            include "koneksi.php";
+              $sql=mysqli_query($conn,"select * from member");
+              while ($data=mysqli_fetch_array($sql)) {
+            ?>
+            <option value="<?=$data['nama_member']?>"><?=$data['nama_member']?></option> 
+            <?php
+              }
+            ?>
+        </select> 
           <br>
         
           <center><input type="submit" name="transaksi" class="btn btn-success" value="Mulai Transaksi"></center><br>

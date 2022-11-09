@@ -4,12 +4,14 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color:#c0b3d7">
 <?php
     include "header.php";
     ?>
-    <h3>Tambah Paket</h3>
-    <form action="proses_tambah_paket.php" method="post">
+
+    <h3 align="center" style="padding:20px;font-weight:bold; color:rgb(71, 65, 160)">Tambah Paket</h3>
+
+    <form action="proses_tambah_paket.php" method="post" style="padding-bottom: 15px;">
         
         <!-- paket -->
         Pilih Jenis Paket

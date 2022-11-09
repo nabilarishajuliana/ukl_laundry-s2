@@ -1,8 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:#c0b3d7">
+    
+
 <?php 
     include "header.php";
 ?>
-<h2>List</h2>
-<table class="table table-hover striped">
+<h2 align="center" style="padding:20px;font-weight:bold; color:rgb(71, 65, 160)" >List Laundry</h2>
+<table class="table table-hover striped" >
     <thead>
         <tr>
             <th>NO</th><th>Nama Member</th><th>paket</th><th>qty</th><th>Aksi</th>
@@ -19,8 +30,10 @@
         <?php endforeach ?>
     </tbody>
 </table>
-<a href="checkout.php" class="btn btn-primary">Check Out</a>
-<a href="transaksi.php" class="btn btn-primary">Tambah</a>
+<a href="checkout.php" class="btn btn-primary" style="margin:15px; margin-right:5px;">Check Out</a>
+<a href="transaksi.php" class="btn btn-primary" style="margin:15px; margin-left:0px;">Tambah</a>
 <?php 
     include "footer.php";
 ?>
+</body>
+</html>

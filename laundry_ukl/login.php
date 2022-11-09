@@ -5,7 +5,7 @@
     <title></title>
     <link rel="stylesheet" href="login_style.css" >
 </head>
-<body>
+<body style="    background-color: rgb(121, 121, 207);">
 
 <div class="overlay"></div>
    <form action="proses_login.php" method="post" class="box">
@@ -21,7 +21,7 @@
             <option value="owner">Owner</option>
         </select>
            <input type="submit" value="Login" class="submit">
-           <p>Belum punya akun?<a href="tambah_user.php">buat akun</a></p>
+           <p>Belum punya akun?<a href="tambah_user_login.php">buat akun</a></p>
        </div>
    </form> 
 
